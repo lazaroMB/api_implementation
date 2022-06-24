@@ -51,7 +51,7 @@ def test_categories_statistics(client, app):
             {'category': 'Electronic', 'price': 1, 'percentage_discount': 0.1},
             ]
     a = DataService(data=right_data)
-    assert a.get_categories_statistics() == {'Food': 1, 'Electronic': 0.999}
+    assert a.get_categories_statistics() == {'Food': 1, 'Electronic': 0.99}
 
 
 def test_category_statistics(client, app):
@@ -61,4 +61,4 @@ def test_category_statistics(client, app):
             ]
     a = DataService(data=right_data)
     assert a.get_category_statistics('Food') == {'Food': 1}
-    assert a.get_category_statistics('Electronic') == {'Electronic': 0.999}
+    assert a.get_category_statistics('Electronic') == {'Electronic': 0.99}

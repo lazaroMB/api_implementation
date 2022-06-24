@@ -1,3 +1,8 @@
+import math
+
+
+def format_number(n):
+    return math.floor(n*100)/100
 
 
 class DataService:
@@ -15,7 +20,7 @@ class DataService:
             if tmp_category != category:
                 continue
             spent += self.get_state_price(stat)
-        return {category: spent}
+        return {category: format_number(spent)}
 
     def get_categories_statistics(self):
         categories = set()
