@@ -1,0 +1,66 @@
+[
+  {
+    "code": "01827395",
+    "name": "Bread",
+    "category": "Food",
+    "price": 5.3,
+    "quantity": 2,
+    "percentage_discount": 0
+  },
+  {
+    "code": "17283640",
+    "name": "Milk",
+    "category": "Food",
+    "price": 2.15,
+    "quantity": 4,
+    "percentage_discount": 10
+  },
+  {
+    "code": "64902891",
+    "name": "Computer mouse",
+    "category": "Electronics",
+    "price": 9.99,
+    "quantity": 1,
+    "percentage_discount": 15
+  },
+  {
+    "code": "92730769",
+    "name": "Soap",
+    "category": "Personal hygiene",
+    "price": 0.5,
+    "quantity": 4,
+    "percentage_discount": 7
+  },
+  {
+    "code": "64729981",
+    "name": "Pen",
+    "category": "Office",
+    "price": 0.25,
+    "quantity": 10,
+    "percentage_discount": 5
+  },
+  {
+    "code": "86009275",
+    "name": "Computer keyboard",
+    "category": "Electronics",
+    "price": 24.99,
+    "quantity": 1,
+    "percentage_discount": 12
+  },
+  {
+    "code": "95741182",
+    "name": "Toilet paper",
+    "category": "Personal hygiene",
+    "price": 3.15,
+    "quantity": 2,
+    "percentage_discount": 0.0
+  },
+  {
+    "code": "95017233",
+    "name": "Copier paper",
+    "category": "Office",
+    "price": 3.0,
+    "quantity": 10,
+    "percentage_discount": 30
+  }
+]
